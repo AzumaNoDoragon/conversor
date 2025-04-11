@@ -30,7 +30,7 @@ Este é um conversor simples implementado em C, que permite converter valores de
 
 ## Limitações
 
-- A função de limpeza de tela *`(cls())`* utiliza *`system("cls")`*, compatível apenas com Windows.
+- A função de limpeza de tela *`cls()`* utiliza *`system("cls")`*, compatível apenas com Windows.
 - Para sistemas Unix/Linux, substitua por *`system("clear")`*.
 
 ## Contribuição
